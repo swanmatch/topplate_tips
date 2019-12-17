@@ -1,4 +1,61 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:sample-cache
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF92310
+P 3675 1175
+F 0 "#PWR0101" H 3675 925 50  0001 C CNN
+F 1 "GND" H 3680 1002 50  0000 C CNN
+F 2 "" H 3675 1175 50  0001 C CNN
+F 3 "" H 3675 1175 50  0001 C CNN
+	1    3675 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DF92435
+P 3675 1175
+F 0 "#FLG0101" H 3675 1250 50  0001 C CNN
+F 1 "PWR_FLAG" H 3675 1349 50  0000 C CNN
+F 2 "" H 3675 1175 50  0001 C CNN
+F 3 "~" H 3675 1175 50  0001 C CNN
+	1    3675 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DF9254D
+P 2800 2050
+F 0 "#PWR0102" H 2800 1800 50  0001 C CNN
+F 1 "GND" H 2805 1877 50  0000 C CNN
+F 2 "" H 2800 2050 50  0001 C CNN
+F 3 "" H 2800 2050 50  0001 C CNN
+	1    2800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5DF928DC
+P 2800 1950
+F 0 "H1" H 2900 2001 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2900 1910 50  0000 L CNN
+F 2 "keyboard:M2hole" H 2800 1950 50  0001 C CNN
+F 3 "~" H 2800 1950 50  0001 C CNN
+	1    2800 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
